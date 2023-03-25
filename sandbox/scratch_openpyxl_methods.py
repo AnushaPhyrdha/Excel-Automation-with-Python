@@ -48,6 +48,7 @@ def get_the_size_of_the_sheet(wb):
     highest_row = sheet.get_highest_row()
     highest_column = sheet.get_highest_column()
 
+
     return highest_row, highest_column
 
 
